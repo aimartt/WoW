@@ -96,7 +96,8 @@ public class Main extends JFrame {
 		panel.add(classButton);
 		panel.add(goalButton);
 		add(panel);
-		setBounds(winSize.width / 2 - WIDTH / 2, winSize.height / 2 - HEIGHT / 2, WIDTH, HEIGHT);		//窗体居中
+		//窗体居中
+		setBounds(winSize.width / 2 - WIDTH / 2, winSize.height / 2 - HEIGHT / 2, WIDTH, HEIGHT);		
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setResizable(false);
 		setVisible(true);
