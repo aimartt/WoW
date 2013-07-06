@@ -55,8 +55,6 @@ public class Main extends JFrame {
 	private JButton goalButton = new JButton("生  成");
 	
 	public Main() {
-		//获取屏幕的大小
-		Dimension winSize = Toolkit.getDefaultToolkit().getScreenSize();
 		panel.setLayout(null);
 		//设置标签的字体、位置和大小，添加到 Panel 中
 		classLabel.setFont(FONT_OF_DEFAULT);
@@ -96,6 +94,8 @@ public class Main extends JFrame {
 		panel.add(classButton);
 		panel.add(goalButton);
 		add(panel);
+		//获取屏幕的大小
+		Dimension winSize = Toolkit.getDefaultToolkit().getScreenSize();
 		//窗体居中
 		setBounds(winSize.width / 2 - WIDTH / 2, winSize.height / 2 - HEIGHT / 2, WIDTH, HEIGHT);		
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
