@@ -51,6 +51,24 @@ public class Area {
         areas.add("巨兽岛");
         areas.add("雷神岛");
         areas.add("永恒岛");
+        //WOD
+        areas.add("霜火岭");
+        areas.add("德拉诺纳格兰");
+        areas.add("戈尔德隆");
+        areas.add("阿什兰");
+        areas.add("塔纳安丛林");
+        areas.add("塔拉多");
+        areas.add("德拉诺影月谷");
+        areas.add("阿兰卡峰林");
+	}
+	
+	public static void main(String[] args) {
+		Integer x1 = new Integer(0xf1);
+		Integer x2 = new Integer(0x5c);
+		Integer x3 = new Integer(0xba);
+		System.out.println(x1);
+		System.out.println(x2);
+		System.out.println(x3);
 	}
 
 }
